@@ -2,11 +2,11 @@
 A full-stack AI-powered application that transforms text prompts into stunning images using the ClipDrop API. It features user authentication, credit-based usage, and secure payment integration via Razorpay.
 
 ## 🚀 Features
-🔐 JWT Authentication
-💳 Credit-based usage system
-🖼️ AI-powered text-to-image generation
-🛒 Razorpay integration for purchasing credits
-⚙️ Modern React.js frontend with Tailwind CSS
+🔐 JWT Authentication  
+💳 Credit-based usage system  
+🖼️ AI-powered text-to-image generation  
+🛒 Razorpay integration for purchasing credits 
+⚙️ Modern React.js frontend with Tailwind CSS  
 🔧 Robust Express.js backend with MongoDB
 🔔 Toast notifications for better UX
 

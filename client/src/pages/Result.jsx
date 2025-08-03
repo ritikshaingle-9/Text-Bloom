@@ -42,14 +42,16 @@ const Result = () => {
       </div>
 
       {!isImageLoaded &&
-        <div className='flex w-full max-w-xl bg-neutral-500 text-white text-sm p-0.5 mt-10 rounded-full'>
+        <div className='flex w-full max-w-xl bg-[#B44A42] text-white text-md px-4 py-2 mt-9 rounded-xl'>
           <input onChange={e => setInput(e.target.value)}
             value={input}
             type="text"
             placeholder='Describe what you want to generate'
             className='flex-1 bg-transparent outline-none ml-8 max-sm:w-20 placeholder-color'
           />
-          <button type='submit' className='bg-zinc-900 px-10 sm:px-16 py-3 rounded-full'>Generate</button>
+          <button type='submit' className='bg-white text-black px-10 sm:px-16 py-2 rounded-md hover:bg-[#3F3636] hover:text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#8C1C13]'
+
+>Generate</button>
         </div>
       }
 

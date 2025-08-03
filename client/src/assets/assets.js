@@ -57,45 +57,45 @@ export const stepsData = [
 
 export const testimonialsData = [
     {
-        image:profile_img_1,
-        name:'Donald Jackman',
+        image:profile_img_2,
+        name:'Aarav Singh',
         role:'Graphic Designer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`Inkmagine is a game-changer! It helps me create amazing visuals super quickly, and the results always look professional. I honestly use it all the time now.`
     },
     {
         image:profile_img_2,
-        name:'Richard Nelson',
+        name:'Shreya Sharma',
         role:'Content Creator',
         stars:4,
         text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
     },
     {
         image:profile_img_1,
-        name:'Donald Jackman',
+        name:'Jack Martinez',
         role:' Graphic Designer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`I love how easy Inkmagine is to use. It turns my ideas into stunning images in no time. It’s become an essential part of my creative process!`
     },
 ]
 
 export const plans = [
     {
       id: 'Basic',
-      price: 10,
+      price: 500,
       credits: 100,
       desc: 'Best for personal use.'
     },
     {
       id: 'Advanced',
-      price: 50,
+      price: 1500,
       credits: 500,
       desc: 'Best for business use.'
     },
     {
       id: 'Business',
-      price: 250,
-      credits: 5000,
+      price: 5000,
+      credits: 2000,
       desc: 'Best for enterprise use.'
     },
   ]

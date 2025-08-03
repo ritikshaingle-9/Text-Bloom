@@ -87,17 +87,17 @@ const Login = () => {
                     <input onChange={e => setPassword(e.target.value)} value={password} type="password" className='outline-none text-sm' placeholder='Password' required />
                 </div>
 
-                <p className='text-sm text-blue-600 my-4 cursor-pointer'>Forgot Password?</p>
+                <p className='text-sm text-[#8C1C13] my-4 cursor-pointer'>Forgot Password?</p>
 
-                <button className='bg-blue-600 w-full text-white py-2 rounded-full'>{state === 'Login' ? 'login' : 'create account'}</button>
+                <button className='bg-[#8C1C13] w-full text-white py-2 rounded-full'>{state === 'Login' ? 'login' : 'create account'}</button>
 
                 {state === 'Login' ? <p className='mt-5 text-center'>Don't have an account?
-                    <span className='text-blue-600 cursor-pointer' onClick={() => setState('Sign Up')}>Sign up</span>
+                    <span className='text-[#8C1C13] cursor-pointer' onClick={() => setState('Sign Up')}>Sign up</span>
                 </p>
                     :
 
                     <p className='mt-5 text-center'>Already have an account?
-                        <span className='text-blue-600 cursor-pointer' onClick={() => setState('Login')}>Login</span>
+                        <span className='text-[#8C1C13] cursor-pointer' onClick={() => setState('Login')}>Login</span>
                     </p>}
 
                 <img onClick={() => setShowLogin(false)} src={assets.cross_icon} alt="" className='absolute top-5 right-5 cursor-pointer' />

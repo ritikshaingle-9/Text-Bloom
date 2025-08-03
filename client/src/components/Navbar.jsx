@@ -10,9 +10,9 @@ const Navbar = () => {
 
   return (
 
-    <div className='flex items-center justify-between py-4'>
+    <div className='flex items-center justify-between py-1'>
       <Link to='/'>
-        <img src={assets.logo} alt="" className='w-28 sm:w-32 lg:w-40' />
+        <img src={assets.logo} alt="" className='w-28  sm:w-32 lg:w-40' />
       </Link>
 
       <div>
@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className='flex items-center gap-2 sm:gap-3'>
 
             <button onClick={() => navigate('/buy')} className='flex items-center gap-2 bg-white px-4 sm:px-6 py-1.5 sm:py-3 rounded-full hover:scale-105 transition-all duration-700'>
-              <img className='w-5' src={assets.credit_star} alt="" />
+              <img className='w-4' src={assets.credit_star} alt="" />
               <p className='text-xs sm:text-sm font-medium text-gray-800'>Credits left : {credit}</p>
             </button>
 

@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
 
-    <div className='flex items-center justify-between py-1'>
+    <div className='flex items-center mt-[-20px] justify-between py-1'>
       <Link to='/'>
         <img src={assets.logo} alt="" className='w-28  sm:w-32 lg:w-40' />
       </Link>

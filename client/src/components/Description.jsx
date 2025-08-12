@@ -16,8 +16,8 @@ const Description = () => {
         <div className='flex flex-col gap-5 md:gap-14 md:flex-row items-center'>
             <img src={assets.sample_img_1} alt="" className='w-80 xl:w-96 rounded-lg'/>
             <div >
-                <h2 className='text-3xl font-medium max-w-lg mb-4'>Inkmagine: the AI-Powered Text to Image Generator</h2>
-                <p className='text-gray-600 mb-4'>Bring your ideas to life in seconds — for free. Whether you're creating stunning visuals, unique concepts, or art that’s never been seen before, Inkmagine transforms your words into eye-catching images with just a few clicks.</p>
+                <h2 className='text-3xl font-medium max-w-lg mb-4'>Text Bloom: the AI-Powered Text to Image Generator</h2>
+                <p className='text-gray-600 mb-4'>Bring your ideas to life in seconds — for free. Whether you're creating stunning visuals, unique concepts, or art that’s never been seen before, Text Bloom transforms your words into eye-catching images with just a few clicks.</p>
                 <p className='text-gray-600'>Just type a prompt, and watch the magic unfold. From product shots to character designs, surreal concepts to realistic portraits — even the unimaginable becomes visible.</p>
             </div>
         </div>

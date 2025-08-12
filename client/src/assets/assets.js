@@ -61,7 +61,7 @@ export const testimonialsData = [
         name:'Aarav Singh',
         role:'Graphic Designer',
         stars:5,
-        text:`Inkmagine is a game-changer! It helps me create amazing visuals super quickly, and the results always look professional. I honestly use it all the time now.`
+        text:`Text Bloom is a game-changer! It helps me create amazing visuals super quickly, and the results always look professional. I honestly use it all the time now.`
     },
     {
         image:profile_img_2,
@@ -75,7 +75,7 @@ export const testimonialsData = [
         name:'Jack Martinez',
         role:' Graphic Designer',
         stars:5,
-        text:`I love how easy Inkmagine is to use. It turns my ideas into stunning images in no time. It’s become an essential part of my creative process!`
+        text:`I love how easy Text Bloom is to use. It turns my ideas into stunning images in no time. It’s become an essential part of my creative process!`
     },
 ]
 

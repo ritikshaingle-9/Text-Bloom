@@ -18,7 +18,7 @@ const Header = () => {
     }
     
   return (
-    <motion.div className='flex flex-col justify-center items-center text-center my-20'
+    <motion.div className='flex flex-col justify-center items-center text-center my-20 mt-[-5px]'
       initial={{ opacity: 0.2, y: 100 }}
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -74,7 +74,7 @@ const Header = () => {
       initial={{opacity:0}}
       animate={{opacity:1}}
       transition={{delay:1.2, duration:0.8}}
-      className='mt-2 text-neutral-600'>Generated images from inkmagine</motion.p>
+      className='mt-2 text-neutral-600'>Generated images from Text Bloom</motion.p>
     </motion.div>
   )
 }

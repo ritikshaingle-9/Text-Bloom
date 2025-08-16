@@ -41,12 +41,12 @@ If valid, the server processes the request with req.userId attached.
 
 ## API Endpoints
 
-## 🔐 User Routes (/api/user)
+### 🔐 User Routes (/api/user)
 - POST /register — Register a new user
 - POST /login — User login
 - GET /credits — Fetch user's remaining credits (protected)
 
-## 🖼️ Image Routes (/api/image)
+### 🖼️ Image Routes (/api/image)
 POST /generate-image — Generate image from prompt (protected)
 
 ## Usage

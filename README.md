@@ -32,90 +32,42 @@ JWT for authentication
 bcrypt for password encryption
 CORS for secure cross-origin requests
 
-##🧠 AI Model
+##Authentication Flow
 
-Text-to-Image Generation Model (e.g., Stable Diffusion or DALL·E — configurable)
-API-ready architecture for integration with model services
-Project Structure
-Text-Bloom/
-├── client/                 # React frontend
-│   ├── src/
-│   │   ├── components/    # Reusable UI components
-│   │   ├── pages/         # Page-level components
-│   │   ├── services/      # API and Auth services
-│   │   └── assets/        # Static files
-│   └── package.json
-├── server/                # Node.js backend
-│   ├── controllers/       # Route logic
-│   ├── models/            # Mongoose models
-│   ├── routes/            # Express route handlers
-│   ├── middleware/        # Auth middleware
-│   └── index.js
-└── README.md
-
-Authentication Flow
-
-Users register using /api/user/register.
-
-Upon login, a JWT token is generated and stored in localStorage.
-
-Protected routes check token validity using middleware (userAuth).
+1)Users register using /api/user/register.
+2)Upon login, a JWT token is generated and stored in localStorage.
+3)Protected routes check token validity using middleware (userAuth).
 
 If valid, the server processes the request with req.userId attached.
 
-API Endpoints
-🔐 User Routes (/api/user)
+##API Endpoints
 
+##🔐 User Routes (/api/user)
 POST /register — Register a new user
-
 POST /login — User login
-
 GET /credits — Fetch user's remaining credits (protected)
 
-🖼️ Image Routes (/api/image)
-
+##🖼️ Image Routes (/api/image)
 POST /generate-image — Generate image from prompt (protected)
 
 Usage
+1)Launch both the frontend and backend servers.
+2)Register or log in with your account.
+3)Input a creative text prompt.
+4)Click generate to receive your AI-generated image.
+5)Each generation deducts one credit from your balance.
 
-Launch both the frontend and backend servers.
+##Future Enhancements
 
-Register or log in with your account.
-
-Input a creative text prompt.
-
-Click generate to receive your AI-generated image.
-
-Each generation deducts one credit from your balance.
-
-Future Enhancements
-
-🛍️ Add credit purchasing with Stripe or other payment providers
-
-📦 Integration with custom AI models or local inference
-
-🧾 Generation history with cloud image storage
-
-🌐 Multilingual UI support
-
-📱 Mobile App version (React Native or Flutter)
-
-Contributing
-
-This is an academic project. Suggestions and contributions are welcome!
-
-Fork the repository
-
-Create a feature branch
-
-Submit a pull request
+🛍️ Add credit purchasing with Stripe or other payment providers.
+📦 Integration with custom AI models or local inference.
+🧾 Generation history with cloud image storage.
+🌐 Multilingual UI support.
+📱 Mobile App version (React Native or Flutter).
 
 Contact
 
-For questions or collaboration:
-
-GitHub: YourUsername
-
-Project Link: Text Bloom
+For questions:
+GitHub:https://github.com/ritikshaingle-9
 
 ⚠️ Note: This system is developed for educational purposes only and should not be used in production without further testing and security reviews.

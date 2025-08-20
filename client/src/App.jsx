@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import './index.css';
 import { ToastContainer } from 'react-toastify';
 
+import SparkleCursor from './components/SparkleCursor';
 import BuyCredit from './pages/BuyCredit'
 import Home from './pages/Home'
 import Result from './pages/Result'
@@ -16,6 +17,7 @@ const App = () => {
   const { showLogin } = useContext(AppContext)
   return (
     <div className='px-4 sm:px-10 md:px-14 lg:px-28 min-h-screen' style={{ backgroundColor: '#DED6D6' }}>
+      <SparkleCursor/>
       <ToastContainer position='bottom-right' />
 
       <Navbar />
